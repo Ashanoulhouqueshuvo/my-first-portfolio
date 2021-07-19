@@ -5,7 +5,7 @@ body{
 .modify{
     color: orange;
 }
-section{
+.flexiable-container{
     display: flex;
 }
 .half-width{
@@ -18,7 +18,7 @@ section{
 }
 .link_button{
     text-decoration: none;
-    border: 5px solid yellowgreen;
+    border: 5px solid rgb(184, 221, 108);
     border-radius: 10%;
     color: whitesmoke;
     font-weight: 700;
@@ -33,4 +33,17 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-iteam{
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10%;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#last{
+    text-align: center;
 }
