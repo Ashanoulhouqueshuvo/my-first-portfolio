@@ -6,12 +6,15 @@ const loadProducts = () => {
 
 
 // show all product in UI 
-const showProducts = (products) => {
+const showProducts = (products) => 
+{
   const allProducts = products.map((pd) => pd);
   for (const product of allProducts) {
-    const image = product.images;
+    const image = product.image[0];
     const div = document.createElement("div");
     div.classList.add("product");
+    //const imgUrl="https://fakestoreapi.com/img${image}" +image;
+    //console.log(imgUrl);
     div.innerHTML = `<div class="single-product">
       <div>
     <img class="product-image" src=${image}></img>
